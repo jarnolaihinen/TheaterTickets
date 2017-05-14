@@ -1,0 +1,351 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.teppo.myapplication.AddActivity"
+    android:id="@+id/addLayout">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/name"
+        android:layout_gravity="left|top"
+        android:hint="Name of the movie"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add image"
+        android:id="@+id/addImageButton"
+        android:layout_gravity="right|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Times"
+        android:id="@+id/times"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/name" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:00"
+        android:id="@+id/time18"
+        android:layout_below="@+id/turkuTime"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:id="@+id/time20"
+        android:layout_below="@+id/time18"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22:00"
+        android:id="@+id/time22"
+        android:layout_below="@+id/time20"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add movie"
+        android:id="@+id/addMovie"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/movieImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Movie halls"
+        android:id="@+id/halls"
+        android:layout_below="@+id/time22"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Turku"
+        android:id="@+id/turkuTime"
+        android:layout_alignTop="@+id/times"
+        android:layout_alignParentStart="true"
+        android:paddingTop="20dp"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Turku"
+        android:id="@+id/turkuHall"
+        android:layout_below="@+id/halls"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="5dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hall 1"
+        android:id="@+id/turkuHall1"
+        android:layout_below="@+id/turkuHall"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hall 2"
+        android:id="@+id/turkuHall2"
+        android:layout_below="@+id/turkuHall1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tampere"
+        android:id="@+id/tampereTime"
+        android:layout_above="@+id/time18"
+        android:layout_toStartOf="@+id/addImageButton"
+        android:layout_marginEnd="92dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Helsinki"
+        android:id="@+id/helsinkiTime"
+        android:layout_above="@+id/time18"
+        android:layout_alignStart="@+id/helsinkiPre" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:00"
+        android:id="@+id/helsinkiTime18"
+        android:layout_below="@+id/helsinkiTime"
+        android:layout_alignStart="@+id/helsinkiTime" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:id="@+id/helsinkiTime20"
+        android:layout_below="@+id/helsinkiTime18"
+        android:layout_alignStart="@+id/helsinkiTime18" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22:00"
+        android:id="@+id/helsinkiTime22"
+        android:layout_alignTop="@+id/time22"
+        android:layout_alignStart="@+id/helsinkiTime20" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:00"
+        android:id="@+id/tampereTime18"
+        android:layout_below="@+id/tampereTime"
+        android:layout_alignStart="@+id/tampereTime" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:id="@+id/tampereTime20"
+        android:layout_alignBottom="@+id/time20"
+        android:layout_alignStart="@+id/tampereTime18" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22:00"
+        android:id="@+id/tampereTime22"
+        android:layout_below="@+id/helsinkiTime20"
+        android:layout_alignStart="@+id/tampereTime20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Helsinki"
+        android:id="@+id/hallHelsinki"
+        android:layout_below="@+id/halls"
+        android:layout_alignStart="@+id/helsinkiTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tampere"
+        android:id="@+id/hallTampere"
+        android:layout_alignTop="@+id/hallHelsinki"
+        android:layout_alignStart="@+id/tampereTime" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hall 1"
+        android:id="@+id/helsinkiHall1"
+        android:layout_below="@+id/hallHelsinki"
+        android:layout_alignStart="@+id/hallHelsinki" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hall 2"
+        android:id="@+id/helsinkiHall2"
+        android:layout_below="@+id/helsinkiHall1"
+        android:layout_alignStart="@+id/helsinkiHall1" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hall 1"
+        android:id="@+id/tampereHall1"
+        android:layout_alignBottom="@+id/helsinkiHall1"
+        android:layout_alignStart="@+id/hallTampere" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hall 2"
+        android:id="@+id/tampereHall2"
+        android:layout_below="@+id/tampereHall1"
+        android:layout_alignStart="@+id/tampereHall1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dates"
+        android:id="@+id/dates"
+        android:layout_below="@+id/turkuHall2"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Turku"
+        android:id="@+id/turkuDates"
+        android:layout_below="@+id/dates"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/turkuPre"
+        android:layout_below="@+id/turkuDates"
+        android:layout_alignParentStart="true"
+        android:hint="Premiere"
+        android:layout_toStartOf="@+id/helsinkiPre" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/turkuLast"
+        android:layout_below="@+id/turkuPre"
+        android:layout_alignEnd="@+id/turkuPre"
+        android:hint="Last"
+        android:layout_alignStart="@+id/turkuPre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Helsinki"
+        android:id="@+id/helsinkiDates"
+        android:layout_below="@+id/dates"
+        android:layout_alignStart="@+id/hallHelsinki" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tampere"
+        android:id="@+id/tampereDates"
+        android:layout_below="@+id/turkuLast"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/helsinkiPre"
+        android:hint="Premiere"
+        android:layout_above="@+id/turkuLast"
+        android:layout_toEndOf="@+id/name" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/helsinkiLast"
+        android:hint="Last"
+        android:layout_below="@+id/helsinkiPre"
+        android:layout_toEndOf="@+id/name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/tamperePre"
+        android:hint="Premiere"
+        android:layout_below="@+id/tampereDates"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/tampereHall2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/tampereLast"
+        android:layout_below="@+id/tamperePre"
+        android:layout_alignStart="@+id/tamperePre"
+        android:hint="Last"
+        android:layout_alignEnd="@+id/tampereTime22" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/movieImage"
+        android:layout_toEndOf="@+id/helsinkiLast"
+        android:layout_alignStart="@+id/helsinkiLast"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/helsinkiLast"
+        android:layout_above="@+id/addMovie" />
+
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reservation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_admin__add__movie_.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_admin__add__movie_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_user.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_page.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_customer_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seats.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\fragment_seats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_other_.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\fragment_other_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reservation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_admin_navigation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_admin_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\table_row_item.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\table_row_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_movies.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seats.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\fragment_seats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_up_screen.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_start_up_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_admin_navigation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_admin_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_up_screen.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_start_up_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\table_row_item.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\table_row_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_page.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_customer_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_other_.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\fragment_other_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_admin__add__movie_.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\layout\\activity_admin__add__movie_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_user.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_movies.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\layout\\activity_movies.xml"
+    }
+]

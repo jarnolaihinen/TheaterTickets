@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_movies.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_start_up_screen.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_start_up_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_movies.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_create_user.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_customer_page.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_customer_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_reservation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_start_up_screen.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_start_up_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_admin_navigation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_admin_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_admin__add__movie_.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_admin__add__movie_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_reservation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterApp\\app\\src\\main\\res\\menu\\menu_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_admin__add__movie_.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_admin__add__movie_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_admin_navigation.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_admin_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_customer_page.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_customer_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_create_user.xml",
+        "source": "C:\\Users\\Jarno\\Documents\\TheaterTickets\\app\\src\\main\\res\\menu\\menu_create_user.xml"
+    }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Theatertickets</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin__add__movie_">Admin_Add_Movie_Activity</string>
+    <string name="title_activity_admin_navigation">AdminNavigation</string>
+    <string name="title_activity_create_user">CreateUser</string>
+    <string name="title_activity_customer_page">Customer_page</string>
+    <string name="title_activity_movies">Movies</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeWithActionBar" parent="android:Theme.Holo.Light">
+
+    </style>
+</resources>

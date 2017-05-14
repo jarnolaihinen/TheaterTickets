@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="0px"
+    tools:context="org.theatertickets.jarno.theatertickets.Reservation"
+    android:id="@+id/reservationlayout">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/textView"
+        android:text="RESERVATION"
+        android:textSize="20dp"
+        android:width="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/dateSpinner" />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:id="@+id/dateSpinner"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/button" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:id="@+id/timeSpinner"
+        android:layout_alignTop="@+id/dateSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/dateSpinner" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/timeSpinner" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reserve"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/previewImage"
+        android:longClickable="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/timeSpinner"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView" />
+
+    />
+
+</RelativeLayout>

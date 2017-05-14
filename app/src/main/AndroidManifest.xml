@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.theatertickets.jarno.theatertickets" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.StartUpScreen"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.CreateUser"
+            android:label="@string/title_activity_create_user" >
+        </activity>
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.Reservation"
+            android:label="@string/title_activity_reservation" >
+        </activity>
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.Movies"
+            android:label="@string/title_activity_movies"
+            android:theme="@style/AppThemeWithActionBar" >
+        </activity>
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.Admin_Add_Movie_Activity"
+            android:label="@string/title_activity_admin__add__movie_" >
+        </activity>
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.Customer_page"
+            android:label="@string/title_activity_customer_page"
+            android:theme="@style/AppThemeWithActionBar" >
+>
+        </activity>
+        <activity
+            android:name="org.theatertickets.jarno.theatertickets.AdminNavigation"
+            android:label="@string/title_activity_admin_navigation" >
+        </activity>
+    </application>
+
+</manifest>
